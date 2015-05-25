@@ -1,6 +1,6 @@
 # schematron
 A project from Rick Jelliffe automatically exported from code.google.com/p/schematron
-before Google Code disappears!!!
+before Google Code disappears!!! (attention!!! the wiki pages has been partilally exported manually, so it could be missing pages)
 
 This site has code for four related projects:
 
