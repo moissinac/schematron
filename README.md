@@ -4,27 +4,33 @@ before Google Code disappears!!! (attention!!! the wiki pages has been partilall
 
 This site has code for four related projects:
 
-schematron: ISO Schematron validators {XSLT1 and XSLT2}
-converters including Schematron embedded in XSD or RELAX NG, and pretty printing
-ant_schematron: Ant Task for Schematron {Java}
-XSD2SCH: XML Schemas to Schematron converter {XSLT2}
+* schematron: ISO Schematron validators {XSLT1 and XSLT2}
+* converters including Schematron embedded in XSD or RELAX NG, and pretty printing
+* ant_schematron: Ant Task for Schematron {Java}
+* XSD2SCH: XML Schemas to Schematron converter {XSLT2}
+* 
 The site is under construction, for activation in later July 2010. Currently it is only loaded with the distributions for these projects, the source code and some of the test files: in particular, the various build scripts are not ported yet.
 
-ISO Schematron
+* ISO Schematron
+
 ISO Schematron is a validation and reporting language, based on the presence or absence of XPaths in one or more XML documents. It has an emphasis on human-understandability and simplicity of use and implementation.
 
 Schematron is an ISO standard frequently used to complement ISO RELAX NG grammars.
 
-The ISO standard is available for free download at the ISO website: see http://www.schematron.com for details and many links to tutorials, adopters and related material. The code here tracks the proposed new version of the ISO Standardhttp://www.itscj.ipsj.or.jp/sc34/open/1419.pdf.
+The ISO standard is available for free download at the ISO website: see http://www.schematron.com for details and many links to tutorials, adopters and related material. The code here tracks the proposed new version of the ISO Standard
 
-Implementation History
+http://www.itscj.ipsj.or.jp/sc34/open/1419.pdf.
+
+* Implementation History
+
 Status: Released. (Note test and build files on system are being loaded currently and should not work.)
 
 This open source implementation was started by Rick Jelliffe at Academia Sinica, Taiwan, in 1999, and has been maintained over the years with many contributions from an active user community. It is usually called the "skeleton" implementation, the "Academia Sinica" implementation, or the "unofficial reference" implementation.
 
 Rick Jelliffe would also like to acknowledge the contributions of Academia Sinica Computing Centre, Geotempo Inc, Allette Systems and Topologi in supporting this project in the past decade. The initial version and pre-processors were developed by Rick Jelliffe. The skeleton/meta-stylesheet system was contributed by Oliver Becker. For license details, see the wiki.
 
-Implementation Structure
+* Implementation Structure
+
 The implementation consists of
 
 preprocessor XSLT scripts (XML macro processors) for various kinds of inclusions and expansions,
@@ -33,7 +39,7 @@ various '''meta-stylesheets''' which are XSLT scripts that invoke the skeleton b
 localization files to allow generic error messages in different languages,
 There are three distributions of the implementation: ISO Schematron for XSLT2 engines, ISO Schematron for XSLT1 engines, and a legacy distribution of Schematron 1.6 for XSLT1. The legacy distribution is obsolete and users of Schematron 1.5 or 1.6 (which has XML namespace http://www.ascc.net/xml/schematron) should adopt ISO Schematron (which has the XML namespace http://purl.oclc.org/dsdl/schematron.)
 
-Converters
+* Converters
 These are various scripts that help integrate Schematron into other systems.
 
 Implementation History
